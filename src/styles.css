@@ -164,7 +164,7 @@
 }
 
 @utility page-shell {
-  width: min(1120px, calc(100% - 40px));
+  width: min(1120px, calc(100% - 32px));
   margin-inline: auto;
 }
 
@@ -213,11 +213,6 @@
 
 @keyframes accordion-down { from { height: 0; opacity: 0; } to { height: var(--radix-accordion-content-height); opacity: 1; } }
 @keyframes accordion-up { from { height: var(--radix-accordion-content-height); opacity: 1; } to { height: 0; opacity: 0; } }
-
-@media (max-width: 640px) {
-  @utility page-shell { width: min(100% - 32px, 1120px); }
-  @utility hero-frame { aspect-ratio: .78 / 1; }
-}
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }

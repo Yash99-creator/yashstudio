@@ -114,7 +114,7 @@ function Index() {
         {menuOpen && (
           <nav className="absolute inset-x-0 top-20 z-30 mx-5 flex flex-col border border-border bg-background p-5 text-lg shadow-soft md:hidden">
             {[["Projects", "#featuredprojects"], ["Who am I?", "#about"], ["Process", "#process"], ["Faq", "#faq"]].map(([label, id]) => (
-              <button key={id} onClick={() => scrollTo(id)} className="border-b border-border py-4 text-left last:border-0">{label}</button>
+              <button key={id} onClick={() => id && scrollTo(id)} className="border-b border-border py-4 text-left last:border-0">{label}</button>
             ))}
           </nav>
         )}
@@ -122,9 +122,9 @@ function Index() {
 
       <section id="top" className="page-shell pb-24 pt-2 md:pb-32">
         <div className="grid grid-cols-3 gap-3 md:gap-5">
-          <div className="hero-frame"><img src={heroMento.url} alt="Mento Markets website shown on a laptop" /></div>
-          <div className="hero-frame"><img src={heroHotel.url} alt="Heritage hotel website shown on a laptop" /></div>
-          <div className="hero-frame"><img src={heroHealth.url} alt="Healthcare website shown on a laptop" /></div>
+          <div className="hero-frame max-sm:aspect-[.78/1]"><img src={heroMento.url} alt="Mento Markets website shown on a laptop" /></div>
+          <div className="hero-frame max-sm:aspect-[.78/1]"><img src={heroHotel.url} alt="Heritage hotel website shown on a laptop" /></div>
+          <div className="hero-frame max-sm:aspect-[.78/1]"><img src={heroHealth.url} alt="Healthcare website shown on a laptop" /></div>
         </div>
         <div className="mt-12 grid items-end gap-8 md:mt-14 md:grid-cols-[1fr_auto]">
           <h1 className="max-w-[900px] text-[clamp(2.65rem,5vw,4.6rem)] font-normal leading-[1.04]">
