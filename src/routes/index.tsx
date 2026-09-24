@@ -3,16 +3,16 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowUpRight, Menu, Plus, X } from "lucide-react";
 import { useState } from "react";
 
-import heroHealth from "../assets/hero-health.png.asset.json";
-import heroHotel from "../assets/hero-hotel.png.asset.json";
-import heroMento from "../assets/hero-mento.png.asset.json";
-import processBuild from "../assets/process-build.png.asset.json";
-import processDesign from "../assets/process-design.png.asset.json";
-import processStrategy from "../assets/process-strategy.png.asset.json";
-import projectMaison from "../assets/project-maison.png.asset.json";
-import projectMento from "../assets/project-mento.png.asset.json";
-import projectNivi from "../assets/project-nivi.png.asset.json";
-import projectVivaana from "../assets/project-vivaana.png.asset.json";
+import heroHealth from "../assets/hero-health.png";
+import heroHotel from "../assets/hero-hotel.png";
+import heroMento from "../assets/hero-mento.png";
+import processBuild from "../assets/process-build.png";
+import processDesign from "../assets/process-design.png";
+import processStrategy from "../assets/process-strategy.png";
+import projectMaison from "../assets/project-maison.png";
+import projectMento from "../assets/project-mento.png";
+import projectNivi from "../assets/project-nivi.png";
+import projectVivaana from "../assets/project-vivaana.png";
 import { Button } from "../components/ui/button";
 
 export const Route = createFileRoute("/")({
