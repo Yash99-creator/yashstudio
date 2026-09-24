@@ -1,4 +1,4 @@
-# Recreate Yash Verma portfolio
+# Yash Verma portfolio
 
 ## What I’ll build
 - Reproduce the reference as a single responsive portfolio page, preserving its section order, typography scale, spacing, white canvas, card treatment, navigation, project layout, process panels, FAQ, contact grid, and subtle motion.
