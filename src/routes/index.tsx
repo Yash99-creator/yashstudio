@@ -3,16 +3,16 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowUpRight, Menu, Plus, X } from "lucide-react";
 import { useState } from "react";
 
-import heroHealth from "../assets/hero-health.png.asset.json";
-import heroHotel from "../assets/hero-hotel.png.asset.json";
-import heroMento from "../assets/hero-mento.png.asset.json";
-import processBuild from "../assets/process-build.png.asset.json";
-import processDesign from "../assets/process-design.png.asset.json";
-import processStrategy from "../assets/process-strategy.png.asset.json";
-import projectMaison from "../assets/project-maison.png.asset.json";
-import projectMento from "../assets/project-mento.png.asset.json";
-import projectNivi from "../assets/project-nivi.png.asset.json";
-import projectVivaana from "../assets/project-vivaana.png.asset.json";
+import heroHealth from "../assets/hero-health.png";
+import heroHotel from "../assets/hero-hotel.png";
+import heroMento from "../assets/hero-mento.png";
+import processBuild from "../assets/process-build.png";
+import processDesign from "../assets/process-design.png";
+import processStrategy from "../assets/process-strategy.png";
+import projectMaison from "../assets/project-maison.png";
+import projectMento from "../assets/project-mento.png";
+import projectNivi from "../assets/project-nivi.png";
+import projectVivaana from "../assets/project-vivaana.png";
 import { Button } from "../components/ui/button";
 
 export const Route = createFileRoute("/")({
@@ -39,25 +39,25 @@ const projects = [
   {
     title: "Mento Markets",
     result: "47% increase in booking rate. Repeat customers up 3x.",
-    image: projectMento.url,
+    image: projectMento,
     href: "https://mentomarkets.com/",
   },
   {
     title: "Vivaana Heritage Hotels",
     result: "Booking up 23%. Repeat guest rate up 3x.",
-    image: projectVivaana.url,
+    image: projectVivaana,
     href: "https://vivaana.com/",
   },
   {
     title: "Nivi's Art Studio",
     result: "",
-    image: projectNivi.url,
+    image: projectNivi,
     href: "https://nivisartstudio.com/",
   },
   {
     title: "Maison 1947",
     result: "Brand recognition up 60%. Average session duration 2x.",
-    image: projectMaison.url,
+    image: projectMaison,
     href: "https://maison1947.com/",
   },
 ];
@@ -66,17 +66,17 @@ const process = [
   {
     title: "Step 1 - Strategy",
     copy: "We start with a short conversation about your business, goals, and what the website needs to achieve. This helps define the structure before any design begins.",
-    image: processStrategy.url,
+    image: processStrategy,
   },
   {
     title: "Step 2 - Design",
     copy: "I design the full website in Figma so you can see exactly how everything will look. We refine the design together until it feels right.",
-    image: processDesign.url,
+    image: processDesign,
   },
   {
     title: "Step 3 - Build & Launch",
     copy: "Once the design is approved, the website is developed into a fast, responsive site and prepared for launch. After testing, your new website goes live.",
-    image: processBuild.url,
+    image: processBuild,
   },
 ];
 
@@ -122,9 +122,9 @@ function Index() {
 
       <section id="top" className="page-shell pb-24 pt-2 md:pb-32">
         <div className="grid grid-cols-3 gap-3 md:gap-5">
-          <div className="hero-frame max-sm:aspect-[.78/1]"><img src={heroMento.url} alt="Mento Markets website shown on a laptop" /></div>
-          <div className="hero-frame max-sm:aspect-[.78/1]"><img src={heroHotel.url} alt="Heritage hotel website shown on a laptop" /></div>
-          <div className="hero-frame max-sm:aspect-[.78/1]"><img src={heroHealth.url} alt="Healthcare website shown on a laptop" /></div>
+          <div className="hero-frame max-sm:aspect-[.78/1]"><img src={heroMento} alt="Mento Markets website shown on a laptop" /></div>
+          <div className="hero-frame max-sm:aspect-[.78/1]"><img src={heroHotel} alt="Heritage hotel website shown on a laptop" /></div>
+          <div className="hero-frame max-sm:aspect-[.78/1]"><img src={heroHealth} alt="Healthcare website shown on a laptop" /></div>
         </div>
         <div className="mt-12 grid items-end gap-8 md:mt-14 md:grid-cols-[1fr_auto]">
           <h1 className="max-w-[900px] text-[clamp(2.65rem,5vw,4.6rem)] font-normal leading-[1.04]">
