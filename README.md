@@ -1,35 +1,152 @@
-# Yash Verma's Portfolio Replica
+# Yash Verma UI Portfolio
 
-Recreate the portfolio website at https://santhoshdesign.framer.website/ as closely and faithfully as possible in Lovable.
+A modern, responsive personal portfolio website for **myself**, designed to showcase my work, skills, projects, and experience through a clean and minimal interface.
 
-Important: this is a reference implementation request. Preserve the reference website's overall visual design, section order, layout structure, typography hierarchy, spacing, navigation, interactions, animations, backgrounds, buttons, project presentation, and responsive behavior. Do NOT creatively redesign it and do NOT add extra sections or features.
+## ✨ Overview
 
-Only make these requested changes:
-1. Replace the reference person's name with Yash Verma.
-2. Replace the reference person's portrait/photo with Yash Verma's photo. Use a clearly marked image placeholder if the actual photo is not available in the project assets yet, but keep the exact same image dimensions/crop treatment and placement.
-3. Remove the entire client review/testimonial/video-review section and do not replace it with anything.
-4. Replace the reference person's email and phone/contact details with editable placeholders clearly labeled for Yash to fill in, while preserving the exact same placement and styling.
-5. Keep all other visible content and design as close to the reference as possible. Do not change wording, section ordering, cards, project structure, or styling unless required by the identity swap or review removal.
+This portfolio was created with a strong focus on **UI design, responsiveness, visual hierarchy, and smooth user experience**.
 
-Build it as a polished responsive portfolio site. First inspect the reference URL carefully and reproduce it section-by-section. Make the implementation faithful to desktop and mobile layouts. Do not invent additional content or functionality.
+The design was inspired by a modern portfolio layout and recreated with my own personal identity, content, and visuals.
 
-This project was built with [Lovable](https://lovable.dev).
+## 🚀 Features
 
-## Build with Lovable
+* Modern and minimal portfolio UI
+* Fully responsive design for desktop, tablet, and mobile
+* Clean navigation and section-based layout
+* Personal introduction and profile section
+* Project showcase
+* Skills and experience presentation
+* Contact section
+* Smooth interactions and animations
+* Responsive typography and spacing
+* Optimized component-based structure
+* Mobile-friendly navigation
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/af081a54-c8e1-4548-b4cd-c27ebbee6279).
+## 🛠️ Tech Stack
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+### Frontend
 
-## Development
+* **React 19**
+* **TypeScript**
+* **Vite**
+* **Tailwind CSS**
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+### Libraries & Tools
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+* **TanStack Router**
+* **TanStack Start**
+* **Lucide React** for icons
+* **React Hook Form**
+* **Zod**
+* **ESLint**
+* **Prettier**
+
+### Development
+
+
+* **Git & GitHub** for version control and project management
+* **VS Code** for local development
+
+## 🏗️ How I Built It
+
+The project was developed using a component-based React architecture.
+
+The UI was first planned around a clean portfolio structure, focusing on:
+
+1. Creating the overall page layout and navigation
+2. Building reusable React components for different sections
+3. Styling the interface using Tailwind CSS
+4. Adding icons and interactive elements using Lucide React
+5. Making the layout responsive across different screen sizes
+6. Organizing the project using TypeScript for better code structure
+7. Testing the interface locally with Vite
+8. Using Git and GitHub to manage and track development
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── assets/
+├── App.tsx
+└── main.tsx
+```
+
+The project follows a reusable component structure so that individual sections can be easily updated or extended.
+
+## 💻 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Yash99-creator/yash-verma-s-portfolio-replica.git
+```
+
+Navigate to the project:
+
+```bash
+cd yash-verma-s-portfolio-replica
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
+
+Open the local URL shown in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+## 🎨 Design Focus
+
+The main design goals of this project were:
+
+* Minimal and modern visual style
+* Strong typography hierarchy
+* Consistent spacing and alignment
+* Clear content presentation
+* Responsive layouts
+* Simple and intuitive navigation
+* Professional portfolio presentation
+
+## 👨‍💻 About
+
+**Yash Verma**
+
+Computer Science student and aspiring software developer interested in **Java, Python, problem solving, graphic design, and YouTube SEO**.
+
+I built this portfolio to create a central place to showcase my skills, projects, and work.
+
+## 📫 Contact
+
+Portfolio: [Add your live portfolio URL here]
+
+LinkedIn: [Add your LinkedIn URL here]
+
+GitHub: https://github.com/Yash99-creator
+
+---
+
+⭐ If you like the project, consider giving it a star!
