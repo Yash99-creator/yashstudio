@@ -157,8 +157,8 @@ function Index() {
   return (
     <main className="min-h-screen overflow-x-hidden bg-background text-foreground">
       <header className="page-shell flex h-24 items-center justify-between md:h-28">
-        <a href="#top" className="text-[17px] font-medium">
-          Yash Verma
+        <a href="#top" className="text-[17px] font-semibold tracking-tight">
+           <span className="text-black">Yash</span><span className="text-red-600">Studios</span>
         </a>
 
         <nav
