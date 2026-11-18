@@ -304,7 +304,7 @@ function Index() {
           </h1>
 
           <a
-            href="https://calendar.app.google/7vDsHvbscRV7w4EQ6"
+            href="https://wa.me/919250302851"
             target="_blank"
             rel="noreferrer"
           >
